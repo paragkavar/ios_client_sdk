@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB2875914BCF5D8005C47A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB2875814BCF5D8005C47A9 /* Foundation.framework */; };
+		4CB2875F14BCF5D8005C47A9 /* OAuthX.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2875E14BCF5D8005C47A9 /* OAuthX.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB2875514BCF5D8005C47A9 /* libOAuthX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOAuthX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB2875814BCF5D8005C47A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CB2875C14BCF5D8005C47A9 /* OAuthX-Prefix.pch */ = {isa = PBXFileReference; path = "OAuthX-Prefix.pch"; sourceTree = "<group>"; };
+		4CB2875D14BCF5D8005C47A9 /* OAuthX.h */ = {isa = PBXFileReference; path = OAuthX.h; sourceTree = "<group>"; };
+		4CB2875E14BCF5D8005C47A9 /* OAuthX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuthX.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB2875214BCF5D8005C47A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB2875914BCF5D8005C47A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB2874A14BCF5D7005C47A9 = {
+			isa = PBXGroup;
+			children = (
+				4CB2875A14BCF5D8005C47A9 /* OAuthX */,
+				4CB2875714BCF5D8005C47A9 /* Frameworks */,
+				4CB2875614BCF5D8005C47A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB2875614BCF5D8005C47A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2875514BCF5D8005C47A9 /* libOAuthX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB2875714BCF5D8005C47A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2875814BCF5D8005C47A9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB2875A14BCF5D8005C47A9 /* OAuthX */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2875D14BCF5D8005C47A9 /* OAuthX.h */,
+				4CB2875E14BCF5D8005C47A9 /* OAuthX.m */,
+				4CB2875B14BCF5D8005C47A9 /* Supporting Files */,
+			);
+			path = OAuthX;
+			sourceTree = "<group>";
+		};
+		4CB2875B14BCF5D8005C47A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2875C14BCF5D8005C47A9 /* OAuthX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CB2875314BCF5D8005C47A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CB2875414BCF5D8005C47A9 /* OAuthX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB2876214BCF5D8005C47A9 /* Build configuration list for PBXNativeTarget "OAuthX" */;
+			buildPhases = (
+				4CB2875114BCF5D8005C47A9 /* Sources */,
+				4CB2875214BCF5D8005C47A9 /* Frameworks */,
+				4CB2875314BCF5D8005C47A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthX;
+			productName = OAuthX;
+			productReference = 4CB2875514BCF5D8005C47A9 /* libOAuthX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB2874C14BCF5D7005C47A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Geni.com;
+			};
+			buildConfigurationList = 4CB2874F14BCF5D7005C47A9 /* Build configuration list for PBXProject "OAuthX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CB2874A14BCF5D7005C47A9;
+			productRefGroup = 4CB2875614BCF5D8005C47A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB2875414BCF5D8005C47A9 /* OAuthX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB2875114BCF5D8005C47A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB2875F14BCF5D8005C47A9 /* OAuthX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CB2876014BCF5D8005C47A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CB2876114BCF5D8005C47A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB2876314BCF5D8005C47A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OAuthX.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OAuthX/OAuthX-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4CB2876414BCF5D8005C47A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OAuthX.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OAuthX/OAuthX-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB2874F14BCF5D7005C47A9 /* Build configuration list for PBXProject "OAuthX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB2876014BCF5D8005C47A9 /* Debug */,
+				4CB2876114BCF5D8005C47A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB2876214BCF5D8005C47A9 /* Build configuration list for PBXNativeTarget "OAuthX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB2876314BCF5D8005C47A9 /* Debug */,
+				4CB2876414BCF5D8005C47A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB2874C14BCF5D7005C47A9 /* Project object */;
+}
